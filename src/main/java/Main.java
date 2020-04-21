@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println("test");
         Scanner scanner = new Scanner(System.in);
         Map<String, String> cards = new LinkedHashMap<>();
         Map<String, String> reversedCards = new LinkedHashMap<>();
@@ -84,6 +84,7 @@ public class Main {
                         }
                     }
                     break;
+
 
                 case "exit":
                     System.out.println("Bye bye!");
